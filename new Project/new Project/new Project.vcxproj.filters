@@ -19,6 +19,12 @@
     <Filter Include="소스 파일\Calculator">
       <UniqueIdentifier>{e662f88d-9646-402f-9722-f5a0fea17c1b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\NameCard">
+      <UniqueIdentifier>{ff483a7e-fa0f-476c-ad38-c840ddca3721}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\BackProject">
+      <UniqueIdentifier>{4478e1de-7296-443b-8203-2a0cc76f6fda}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="02-3.cpp">
@@ -69,6 +75,15 @@
     <ClCompile Include="Destructor.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="NameCard.cpp">
+      <Filter>소스 파일\NameCard</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>소스 파일\NameCard</Filter>
+    </ClCompile>
+    <ClCompile Include="BackProject.cpp">
+      <Filter>소스 파일\BackProject</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Car.h">
@@ -81,6 +96,9 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="Rectangle.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="NameCard.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

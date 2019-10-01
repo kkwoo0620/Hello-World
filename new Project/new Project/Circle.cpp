@@ -6,14 +6,9 @@ class Point {
 private:
 	int xpos, ypos;
 public:
-	void Init(int x, int y);
+	Point(int x, int y) : xpos(x), ypos(y) {}
 	void ShowPointInfo() const;
 };
-
-void Point::Init(int x, int y) {
-	xpos = x;
-	ypos = y;
-}
 
 void Point::ShowPointInfo() const {
 	cout << "[" << xpos << ", " << ypos << "]" << endl;
@@ -24,14 +19,9 @@ private:
 	int radius;
 	Point center;
 public:
-	void Init(int r, int x, int y);
+	Circle(int r, int x, int y) :radius(r), center(x, y) {}
 	void ShowCircleInfo() const;
 };
-
-void Circle::Init(int r, int x, int y) {
-	radius = r;
-	center.Init(x, y);
-}
 
 void Circle::ShowCircleInfo() const {
 	cout << "radius: " << radius << endl;
@@ -43,14 +33,9 @@ private:
 	Circle InCircle;
 	Circle OutCircle;
 public:
-	void Init(int inxpos, int inypos, int inr, int outxpos, int outypos, int outr);
+	Ring(int inxpos, int inypos, int inr, int outxpos, int outypos, int outr) : InCircle(inr, inxpos, inypos), OutCircle(outr, outxpos, outypos) {}
 	void ShowRingInfo() const;
 };
-
-void Ring::Init(int inxpos, int inypos, int inr, int outxpos, int outypos, int outr) {
-	InCircle.Init(inr, inxpos, inypos);
-	OutCircle.Init(outr, outxpos, outypos);
-}
 
 void Ring::ShowRingInfo() const {
 	cout << "Inner Circle Info..." << endl;
@@ -60,8 +45,7 @@ void Ring::ShowRingInfo() const {
 }
 
 int main() {
-	Ring ring;
-	ring.Init(1, 1, 4, 2, 2, 9);
+	Ring ring(1, 1, 4, 2, 2, 9);
 	ring.ShowRingInfo();
 	return 0;
 }
