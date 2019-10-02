@@ -16,6 +16,15 @@ NameCard::NameCard(const char *name, const char *company, const char *phone, int
 	strcpy(this->company, company);
 	strcpy(this->phone, phone);
 }
+NameCard::NameCard(const NameCard &copy) : position(copy.position)
+{
+	name = new char[strlen(copy.name + 1)];
+	company = new char[strlen(copy.company + 1)];
+	phone = new char[strlen(copy.phone + 1)];
+	strcpy(name, copy.name);
+	strcpy(company, copy.company);
+	strcpy(phone, copy.phone);
+}
 void NameCard::ShowNameCardInfo() {
 	cout << "이름: " << name << endl;
 	cout << "회사: " << company << endl;

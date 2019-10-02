@@ -16,6 +16,11 @@ public:
 		strcpy(name, myname);
 		age = myage;
 	}
+	Person(const Person &ps) : age(ps.age){
+		name = new char[strlen(ps.name) + 1];
+		strcpy(name, ps.name);
+	}
+
 	Person() {
 		name = NULL;
 		age = 0;
@@ -25,7 +30,6 @@ public:
 	void SetPersonInfo(char * myname, int myage)
 	{
 		name = myname;
-		age = myage;
 	}
 
 	void ShowPersonInfo() const {
@@ -39,24 +43,9 @@ public:
 };
 
 int main() {
-	Person * parr[3];
-	char namestr[100];
-	char * strptr;
-	int age;
-	int len;
-
-	for (int i = 0; i < 3; i++)
-	{
-		cout << "이름: ";
-		cin >> namestr;
-		cout << "나이: ";
-		cin >> age;
-		parr[i] = new Person(namestr, age);
-	}
-
-	parr[0]->ShowPersonInfo();
-	parr[1]->ShowPersonInfo();
-	parr[2]->ShowPersonInfo();
-
+	Person man1("Lee dong Woo", 29);
+	Person man2(man1);
+	man1.ShowPersonInfo();
+	man2.ShowPersonInfo();
 
 }

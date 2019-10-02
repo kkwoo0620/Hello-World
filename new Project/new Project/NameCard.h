@@ -12,6 +12,7 @@ private:
 	char *phone;
 	int position;
 public:
+	NameCard(const NameCard &copy);
 	NameCard(const char *name, const char *company, const char *phone, int pos);
 	void ShowNameCardInfo();
 
