@@ -22,11 +22,17 @@
     <Filter Include="소스 파일\NameCard">
       <UniqueIdentifier>{ff483a7e-fa0f-476c-ad38-c840ddca3721}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\BackProject">
-      <UniqueIdentifier>{4478e1de-7296-443b-8203-2a0cc76f6fda}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\CopyConstructor">
       <UniqueIdentifier>{8873fbaa-839b-4470-a102-2d9a518e7ff3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\aboutConst">
+      <UniqueIdentifier>{87a05ff0-892c-4713-b01b-c2f1e288ecf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\BankProject">
+      <UniqueIdentifier>{4478e1de-7296-443b-8203-2a0cc76f6fda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\aboutFriend">
+      <UniqueIdentifier>{7b1e8dc0-9da8-4941-b722-bebb1a0bebd8}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -100,7 +106,16 @@
       <Filter>소스 파일\CopyConstructor</Filter>
     </ClCompile>
     <ClCompile Include="BankProject.cpp">
-      <Filter>소스 파일\BackProject</Filter>
+      <Filter>소스 파일\BankProject</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstObject.cpp">
+      <Filter>소스 파일\aboutConst</Filter>
+    </ClCompile>
+    <ClCompile Include="MyFriendClass.cpp">
+      <Filter>소스 파일\aboutFriend</Filter>
+    </ClCompile>
+    <ClCompile Include="MyFriendFunction.cpp">
+      <Filter>소스 파일\aboutFriend</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
