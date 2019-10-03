@@ -34,6 +34,12 @@
     <Filter Include="소스 파일\aboutFriend">
       <UniqueIdentifier>{7b1e8dc0-9da8-4941-b722-bebb1a0bebd8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\aboutStatic">
+      <UniqueIdentifier>{69412ab5-f772-4590-84c2-d82023c0857d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\aboutInheritance">
+      <UniqueIdentifier>{ad424123-a7f5-4bfb-9a03-f90d3285e757}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="02-3.cpp">
@@ -116,6 +122,60 @@
     </ClCompile>
     <ClCompile Include="MyFriendFunction.cpp">
       <Filter>소스 파일\aboutFriend</Filter>
+    </ClCompile>
+    <ClCompile Include="CComStatic.cpp">
+      <Filter>소스 파일\aboutStatic</Filter>
+    </ClCompile>
+    <ClCompile Include="NeedGlobal.cpp">
+      <Filter>소스 파일\aboutStatic</Filter>
+    </ClCompile>
+    <ClCompile Include="PublicStaticMember.cpp">
+      <Filter>소스 파일\aboutStatic</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstStaticMember.cpp">
+      <Filter>소스 파일\aboutStatic</Filter>
+    </ClCompile>
+    <ClCompile Include="Mutable.cpp">
+      <Filter>소스 파일\aboutStatic</Filter>
+    </ClCompile>
+    <ClCompile Include="EmployeeManager1.cpp">
+      <Filter>소스 파일\aboutInheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="UnivStudentInheri.cpp">
+      <Filter>소스 파일\aboutInheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="DerivCreOrder.cpp">
+      <Filter>소스 파일\aboutInheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="DerivDestOrder.cpp">
+      <Filter>소스 파일\aboutInheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="DestModel.cpp">
+      <Filter>소스 파일\aboutInheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="ProtectedHeri.cpp">
+      <Filter>소스 파일\aboutInheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="ISAInheritance.cpp">
+      <Filter>소스 파일\aboutInheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="HASInheritance.cpp">
+      <Filter>소스 파일\aboutInheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="HASComposite.cpp">
+      <Filter>소스 파일\aboutInheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="Q07-1.2.cpp">
+      <Filter>소스 파일\aboutInheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="Q07-1.1.cpp">
+      <Filter>소스 파일\aboutInheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="Q07-2.1.cpp">
+      <Filter>소스 파일\aboutInheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="Q07-2.2.cpp">
+      <Filter>소스 파일\aboutInheritance</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
