@@ -46,15 +46,27 @@ public:
 	{
 		if (pistol != NULL) 
 			delete pistol;
+		cout << "delete" << endl;
+	}
+	Police(Police &copy):handcuffs(copy.handcuffs) {
+		pistol = new Gun(*copy.pistol);
+	}
+
+	Police& operator=(const Police& P) {
+		if(pistol != NULL)
+			delete[]pistol;
+		pistol = new Gun(*P.pistol);
+		handcuffs = P.handcuffs;
+		return *this;
 	}
 };
 
 int main() {
 	Police pman1(5, 3);
+	Police pman2(0, 3);
+	pman2 = pman1;
 	pman1.Shut();
 	pman1.PutHandcuff();
-
-	Police pman2(0, 3);
 	pman2.Shut();
 	pman2.PutHandcuff();
 	return 0;

@@ -8,6 +8,8 @@
 using std::cout;
 using std::endl;
 using std::cin;
+using std::ostream;
+using std::istream;
 const int NAME_LEN = 20;
 
 

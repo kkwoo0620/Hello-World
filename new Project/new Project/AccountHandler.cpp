@@ -9,7 +9,7 @@ AccountHandler::AccountHandler() : accNum(0) {};
 AccountHandler::~AccountHandler() {
 	for (int i = 0; i < accNum; i++)
 	{
-		delete account[i];
+		delete accArr[i];
 	}
 }
 void AccountHandler::ShowMenu() {
@@ -24,7 +24,6 @@ void AccountHandler::ShowMenu() {
 void AccountHandler::MakeAccount() {
 	int ID;
 	int ChooseAccount;
-	char name[20];
 	int balance;
 	int InterestRate;
 	int Rank;
@@ -56,7 +55,7 @@ void AccountHandler::MakeNormalAccount() {
 	cout << "입금액: "; cin >> balance;
 	cout << "이자율: "; cin >> InterestRate;
 	cout << endl;
-	account[accNum++] = new NormalAccount(ID, balance, name, InterestRate);
+	accArr[accNum++] = new NormalAccount(ID, balance, name, InterestRate);
 }
 
 void AccountHandler::MakeCreditAccount() {
@@ -75,13 +74,13 @@ void AccountHandler::MakeCreditAccount() {
 	switch (Rank)
 	{
 	case 1:
-		account[accNum++] = new HighCreditAccount(ID, balance, name, InterestRate, RANK_A);
+		accArr[accNum++] = new HighCreditAccount(ID, balance, name, InterestRate, RANK_A);
 		break;
 	case 2:
-		account[accNum++] = new HighCreditAccount(ID, balance, name, InterestRate, RANK_B);
+		accArr[accNum++] = new HighCreditAccount(ID, balance, name, InterestRate, RANK_B);
 		break;
 	case 3:
-		account[accNum++] = new HighCreditAccount(ID, balance, name, InterestRate, RANK_C);
+		accArr[accNum++] = new HighCreditAccount(ID, balance, name, InterestRate, RANK_C);
 	}
 
 	cout << endl;
@@ -97,9 +96,9 @@ void AccountHandler::Deposit() {
 
 	for (int i = 0; i < accNum; i++)
 	{
-		if (account[i]->GetaccID() == ID)
+		if (accArr[i]->GetaccID() == ID)
 		{
-			account[i]->Deposit(money);
+			accArr[i]->Deposit(money);
 			cout << "입금완료" << endl << endl;
 			return;
 		}
@@ -116,9 +115,9 @@ void AccountHandler::Withdrawal() {
 
 	for (int i = 0; i < accNum; i++)
 	{
-		if (account[i]->GetaccID() == ID)
+		if (accArr[i]->GetaccID() == ID)
 		{
-			if (account[i]->Withdraw(money) == 0)
+			if (accArr[i]->Withdraw(money) == 0)
 			{
 				cout << "잔액부족" << endl << endl;
 				return;
@@ -134,7 +133,7 @@ void AccountHandler::Withdrawal() {
 void AccountHandler::ShowAllAccount() {
 	for (int i = 0; i < accNum; i++)
 	{
-		account[i]->ShowAccInfo();
+		accArr[i]->ShowAccInfo();
 		cout << endl;
 	}
 }

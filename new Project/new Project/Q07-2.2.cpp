@@ -24,6 +24,22 @@ public:
 		cout << "ISBN: " << isbn << endl;
 		cout << "가격: " << price << endl;
 	}
+	Book(const Book &copy) :price(copy.price) {
+		title = new char[(strlen(copy.title) + 1)];
+		isbn = new char[(strlen(copy.isbn) + 1)];
+		strcpy(title, copy.title);
+		strcpy(isbn, copy.isbn);
+	}
+	Book& operator=(const Book &copy) {
+		delete[]title;
+		delete[]isbn;
+		title = new char[(strlen(copy.title) + 1)];
+		isbn = new char[(strlen(copy.isbn) + 1)];
+		strcpy(title, copy.title);
+		strcpy(isbn, copy.isbn);
+		price = copy.price;
+		return *this;
+	}
 	~Book()
 	{
 		delete title;
@@ -45,15 +61,31 @@ public:
 		ShowBookInfo();
 		cout << "인증키: " << DRMKey << endl;
 	}
+	EBook(const EBook &copy): Book(copy) {
+		DRMKey = new char[(strlen(copy.DRMKey) + 1)];
+		strcpy(DRMKey, copy.DRMKey);
+	}
+	EBook& operator=(const EBook &copy) {
+		Book::operator=(copy);
+		delete[]DRMKey;
+		DRMKey = new char[(strlen(copy.DRMKey) + 1)];
+		strcpy(DRMKey, copy.DRMKey);
+		return *this;
+	}
+
 	~EBook() {
 		delete DRMKey;
 	}
+
 };
 
 int main()
 {
 	Book book("좋은 C++", "555-12345-890-0", 20000);
-	book.ShowBookInfo();
+	Book book2 = book;
+	book2.ShowBookInfo();
+	Book book3(book);
+	book3.ShowBookInfo();
 	cout << endl;
 	EBook ebook("좋은 C++ ebook", "555-12345-890-1", 10000, "fdx9w0i8kjw");
 	ebook.ShowEBookInfo();
