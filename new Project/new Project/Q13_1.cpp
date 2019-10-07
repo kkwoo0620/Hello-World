@@ -15,17 +15,18 @@ public:
 };
 
 template <class T>
-void SwapData(T& A, T&B) {
+void SwapData(T& A, T& B)
+{
 	T temp = A;
 	A = B;
 	B = temp;
-
 }
 
 int main()
 {
 	Point A(1, 2);
-	Point B(3, 4);
+	Point B(10, 20);
+
 	SwapData(A, B);
 	A.ShowPosition();
 	B.ShowPosition();

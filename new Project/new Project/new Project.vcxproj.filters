@@ -13,68 +13,89 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="소스 파일\Car">
-      <UniqueIdentifier>{e86474d5-637a-42db-af7f-f1fc7185b5db}</UniqueIdentifier>
+    <Filter Include="소스 파일\Brain STL">
+      <UniqueIdentifier>{81b83b41-4a34-4a52-8d04-dec7764b665e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\Calculator">
-      <UniqueIdentifier>{e662f88d-9646-402f-9722-f5a0fea17c1b}</UniqueIdentifier>
+    <Filter Include="소스 파일\c++ introductory">
+      <UniqueIdentifier>{a2345c32-0eb0-473b-a100-9f9177296b71}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\NameCard">
+    <Filter Include="소스 파일\c++ introductory\NameCard">
       <UniqueIdentifier>{ff483a7e-fa0f-476c-ad38-c840ddca3721}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\CopyConstructor">
-      <UniqueIdentifier>{8873fbaa-839b-4470-a102-2d9a518e7ff3}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\aboutConst">
+    <Filter Include="소스 파일\c++ introductory\aboutConst">
       <UniqueIdentifier>{87a05ff0-892c-4713-b01b-c2f1e288ecf4}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\BankProject">
-      <UniqueIdentifier>{4478e1de-7296-443b-8203-2a0cc76f6fda}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\aboutFriend">
-      <UniqueIdentifier>{7b1e8dc0-9da8-4941-b722-bebb1a0bebd8}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\aboutStatic">
-      <UniqueIdentifier>{69412ab5-f772-4590-84c2-d82023c0857d}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\aboutInheritance">
+    <Filter Include="소스 파일\c++ introductory\aboutInheritance">
       <UniqueIdentifier>{ad424123-a7f5-4bfb-9a03-f90d3285e757}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\aboutPolymorphism">
+    <Filter Include="소스 파일\c++ introductory\aboutPolymorphism">
       <UniqueIdentifier>{85f303b0-8ab3-4dbd-97ae-486e4be17abc}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\aboutPolymorphism\virtualFuction">
+    <Filter Include="소스 파일\c++ introductory\aboutPolymorphism\virtualFuction">
       <UniqueIdentifier>{1b290fed-de02-4386-bb4e-2b697f6daee6}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\PrincipleOfClass">
-      <UniqueIdentifier>{2ca35d02-9c96-4042-b150-88d351b3513e}</UniqueIdentifier>
+    <Filter Include="소스 파일\c++ introductory\aboutStatic">
+      <UniqueIdentifier>{69412ab5-f772-4590-84c2-d82023c0857d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\OperatorOverloading">
-      <UniqueIdentifier>{09c2c283-5be8-4b66-be18-c7c700d1693b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\cout, cin, endl">
-      <UniqueIdentifier>{0585161d-fcad-4131-9c37-1c08d1e7562e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\OperatorOverloading\OperatorOverloading2">
-      <UniqueIdentifier>{d5f33e28-b8e4-4100-9c6a-728289e3318a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\OperatorOverloading\ArrayOperatorOverloading">
-      <UniqueIdentifier>{fce0b81b-3c69-49a3-9447-de645a608472}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\aboutString">
+    <Filter Include="소스 파일\c++ introductory\aboutString">
       <UniqueIdentifier>{d088f975-80a3-4017-a329-8872b772d5b4}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\aboutString\StringClass">
+    <Filter Include="소스 파일\c++ introductory\aboutString\StringClass">
       <UniqueIdentifier>{bb12687e-3946-489e-a7ba-9932e5174d69}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\aboutTemplate">
+    <Filter Include="소스 파일\c++ introductory\aboutTemplate">
       <UniqueIdentifier>{fdf18c59-5c5d-4b5c-b8c8-2d4266988bbf}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\aboutTemplate\Arraytemplate">
+    <Filter Include="소스 파일\c++ introductory\aboutTemplate\Arraytemplate">
       <UniqueIdentifier>{23285dea-b94b-47bc-ba13-afbec4641953}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\ExceptionHandling">
+    <Filter Include="소스 파일\c++ introductory\aboutTemplate\PointTemplateFile">
+      <UniqueIdentifier>{8b76c086-0ff7-43e3-b968-5a8adf7f61bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\c++ introductory\BankProject">
+      <UniqueIdentifier>{4478e1de-7296-443b-8203-2a0cc76f6fda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\c++ introductory\Calculator">
+      <UniqueIdentifier>{e662f88d-9646-402f-9722-f5a0fea17c1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\c++ introductory\Car">
+      <UniqueIdentifier>{e86474d5-637a-42db-af7f-f1fc7185b5db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\c++ introductory\CopyConstructor">
+      <UniqueIdentifier>{8873fbaa-839b-4470-a102-2d9a518e7ff3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\c++ introductory\cout, cin, endl">
+      <UniqueIdentifier>{0585161d-fcad-4131-9c37-1c08d1e7562e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\c++ introductory\ExceptionHandling">
       <UniqueIdentifier>{a81eeb2c-1a9d-4ba1-8968-330bb910712f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\c++ introductory\PrincipleOfClass">
+      <UniqueIdentifier>{2ca35d02-9c96-4042-b150-88d351b3513e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\c++ introductory\OperatorOverloading">
+      <UniqueIdentifier>{09c2c283-5be8-4b66-be18-c7c700d1693b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\c++ introductory\OperatorOverloading\OperatorOverloading2">
+      <UniqueIdentifier>{d5f33e28-b8e4-4100-9c6a-728289e3318a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\c++ introductory\OperatorOverloading\ArrayOperatorOverloading">
+      <UniqueIdentifier>{fce0b81b-3c69-49a3-9447-de645a608472}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Brain STL\OperatorOverload">
+      <UniqueIdentifier>{728af0d9-bf39-4e04-b63f-23c19f549999}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\c++ introductory\aboutConst\aboutFriend">
+      <UniqueIdentifier>{7b1e8dc0-9da8-4941-b722-bebb1a0bebd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Brain STL\FunctionPointer">
+      <UniqueIdentifier>{a199b79a-c06b-4bf5-9244-01e2c9ae8d15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Brain STL\ServerCodeClientCode">
+      <UniqueIdentifier>{4015a93f-8dd3-4eeb-bef5-5840cd9db14e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Brain STL\FunctionObject">
+      <UniqueIdentifier>{3efcc5ca-709a-43f8-a4e3-8b98a32946d5}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -85,16 +106,16 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="RacingMain.cpp">
-      <Filter>소스 파일\Car</Filter>
+      <Filter>소스 파일\c++ introductory\Car</Filter>
     </ClCompile>
     <ClCompile Include="Car.cpp">
-      <Filter>소스 파일\Car</Filter>
+      <Filter>소스 파일\c++ introductory\Car</Filter>
     </ClCompile>
     <ClCompile Include="MainCalculator.cpp">
-      <Filter>소스 파일\Calculator</Filter>
+      <Filter>소스 파일\c++ introductory\Calculator</Filter>
     </ClCompile>
     <ClCompile Include="Calculator.cpp">
-      <Filter>소스 파일\Calculator</Filter>
+      <Filter>소스 파일\c++ introductory\Calculator</Filter>
     </ClCompile>
     <ClCompile Include="Print.cpp">
       <Filter>소스 파일</Filter>
@@ -127,220 +148,274 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="NameCard.cpp">
-      <Filter>소스 파일\NameCard</Filter>
+      <Filter>소스 파일\c++ introductory\NameCard</Filter>
     </ClCompile>
     <ClCompile Include="Main.cpp">
-      <Filter>소스 파일\NameCard</Filter>
+      <Filter>소스 파일\c++ introductory\NameCard</Filter>
     </ClCompile>
     <ClCompile Include="ClassInit.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="PassObjCopycon.cpp">
-      <Filter>소스 파일\CopyConstructor</Filter>
+      <Filter>소스 파일\c++ introductory\CopyConstructor</Filter>
     </ClCompile>
     <ClCompile Include="ReturnObjCopycon.cpp">
-      <Filter>소스 파일\CopyConstructor</Filter>
+      <Filter>소스 파일\c++ introductory\CopyConstructor</Filter>
     </ClCompile>
     <ClCompile Include="IknowTempObj.cpp">
-      <Filter>소스 파일\CopyConstructor</Filter>
+      <Filter>소스 파일\c++ introductory\CopyConstructor</Filter>
     </ClCompile>
     <ClCompile Include="ReturnObjDeadTime.cpp">
-      <Filter>소스 파일\CopyConstructor</Filter>
+      <Filter>소스 파일\c++ introductory\CopyConstructor</Filter>
     </ClCompile>
     <ClCompile Include="ConstObject.cpp">
-      <Filter>소스 파일\aboutConst</Filter>
+      <Filter>소스 파일\c++ introductory\aboutConst</Filter>
     </ClCompile>
     <ClCompile Include="MyFriendClass.cpp">
-      <Filter>소스 파일\aboutFriend</Filter>
+      <Filter>소스 파일\c++ introductory\aboutConst\aboutFriend</Filter>
     </ClCompile>
     <ClCompile Include="MyFriendFunction.cpp">
-      <Filter>소스 파일\aboutFriend</Filter>
+      <Filter>소스 파일\c++ introductory\aboutConst\aboutFriend</Filter>
     </ClCompile>
     <ClCompile Include="CComStatic.cpp">
-      <Filter>소스 파일\aboutStatic</Filter>
+      <Filter>소스 파일\c++ introductory\aboutStatic</Filter>
     </ClCompile>
     <ClCompile Include="NeedGlobal.cpp">
-      <Filter>소스 파일\aboutStatic</Filter>
+      <Filter>소스 파일\c++ introductory\aboutStatic</Filter>
     </ClCompile>
     <ClCompile Include="PublicStaticMember.cpp">
-      <Filter>소스 파일\aboutStatic</Filter>
+      <Filter>소스 파일\c++ introductory\aboutStatic</Filter>
     </ClCompile>
     <ClCompile Include="ConstStaticMember.cpp">
-      <Filter>소스 파일\aboutStatic</Filter>
+      <Filter>소스 파일\c++ introductory\aboutStatic</Filter>
     </ClCompile>
     <ClCompile Include="Mutable.cpp">
-      <Filter>소스 파일\aboutStatic</Filter>
+      <Filter>소스 파일\c++ introductory\aboutStatic</Filter>
     </ClCompile>
     <ClCompile Include="EmployeeManager1.cpp">
-      <Filter>소스 파일\aboutInheritance</Filter>
+      <Filter>소스 파일\c++ introductory\aboutInheritance</Filter>
     </ClCompile>
     <ClCompile Include="UnivStudentInheri.cpp">
-      <Filter>소스 파일\aboutInheritance</Filter>
+      <Filter>소스 파일\c++ introductory\aboutInheritance</Filter>
     </ClCompile>
     <ClCompile Include="DerivCreOrder.cpp">
-      <Filter>소스 파일\aboutInheritance</Filter>
+      <Filter>소스 파일\c++ introductory\aboutInheritance</Filter>
     </ClCompile>
     <ClCompile Include="DerivDestOrder.cpp">
-      <Filter>소스 파일\aboutInheritance</Filter>
+      <Filter>소스 파일\c++ introductory\aboutInheritance</Filter>
     </ClCompile>
     <ClCompile Include="DestModel.cpp">
-      <Filter>소스 파일\aboutInheritance</Filter>
+      <Filter>소스 파일\c++ introductory\aboutInheritance</Filter>
     </ClCompile>
     <ClCompile Include="ProtectedHeri.cpp">
-      <Filter>소스 파일\aboutInheritance</Filter>
+      <Filter>소스 파일\c++ introductory\aboutInheritance</Filter>
     </ClCompile>
     <ClCompile Include="ISAInheritance.cpp">
-      <Filter>소스 파일\aboutInheritance</Filter>
+      <Filter>소스 파일\c++ introductory\aboutInheritance</Filter>
     </ClCompile>
     <ClCompile Include="HASInheritance.cpp">
-      <Filter>소스 파일\aboutInheritance</Filter>
+      <Filter>소스 파일\c++ introductory\aboutInheritance</Filter>
     </ClCompile>
     <ClCompile Include="HASComposite.cpp">
-      <Filter>소스 파일\aboutInheritance</Filter>
+      <Filter>소스 파일\c++ introductory\aboutInheritance</Filter>
     </ClCompile>
     <ClCompile Include="Q07-1.2.cpp">
-      <Filter>소스 파일\aboutInheritance</Filter>
+      <Filter>소스 파일\c++ introductory\aboutInheritance</Filter>
     </ClCompile>
     <ClCompile Include="Q07-1.1.cpp">
-      <Filter>소스 파일\aboutInheritance</Filter>
+      <Filter>소스 파일\c++ introductory\aboutInheritance</Filter>
     </ClCompile>
     <ClCompile Include="Q07-2.1.cpp">
-      <Filter>소스 파일\aboutInheritance</Filter>
+      <Filter>소스 파일\c++ introductory\aboutInheritance</Filter>
     </ClCompile>
     <ClCompile Include="Q07-2.2.cpp">
-      <Filter>소스 파일\aboutInheritance</Filter>
+      <Filter>소스 파일\c++ introductory\aboutInheritance</Filter>
     </ClCompile>
     <ClCompile Include="ObjectPointer.cpp">
-      <Filter>소스 파일\aboutPolymorphism</Filter>
+      <Filter>소스 파일\c++ introductory\aboutPolymorphism</Filter>
     </ClCompile>
     <ClCompile Include="EmployeeManager2.cpp">
-      <Filter>소스 파일\aboutPolymorphism</Filter>
+      <Filter>소스 파일\c++ introductory\aboutPolymorphism</Filter>
     </ClCompile>
     <ClCompile Include="FunctionOverride.cpp">
-      <Filter>소스 파일\aboutPolymorphism\virtualFuction</Filter>
+      <Filter>소스 파일\c++ introductory\aboutPolymorphism\virtualFuction</Filter>
     </ClCompile>
     <ClCompile Include="VirtualDestructor.cpp">
-      <Filter>소스 파일\aboutPolymorphism\virtualFuction</Filter>
+      <Filter>소스 파일\c++ introductory\aboutPolymorphism\virtualFuction</Filter>
     </ClCompile>
     <ClCompile Include="ReferenceAttribute.cpp">
-      <Filter>소스 파일\aboutPolymorphism\virtualFuction</Filter>
+      <Filter>소스 파일\c++ introductory\aboutPolymorphism\virtualFuction</Filter>
     </ClCompile>
     <ClCompile Include="RealObjUnder1.cpp">
-      <Filter>소스 파일\PrincipleOfClass</Filter>
+      <Filter>소스 파일\c++ introductory\PrincipleOfClass</Filter>
     </ClCompile>
     <ClCompile Include="RealObjUnder2.cpp">
-      <Filter>소스 파일\PrincipleOfClass</Filter>
+      <Filter>소스 파일\c++ introductory\PrincipleOfClass</Filter>
     </ClCompile>
     <ClCompile Include="Account.cpp">
-      <Filter>소스 파일\BankProject</Filter>
+      <Filter>소스 파일\c++ introductory\BankProject</Filter>
     </ClCompile>
     <ClCompile Include="AccountHandler.cpp">
-      <Filter>소스 파일\BankProject</Filter>
+      <Filter>소스 파일\c++ introductory\BankProject</Filter>
     </ClCompile>
     <ClCompile Include="BackingSystemMain.cpp">
-      <Filter>소스 파일\BankProject</Filter>
+      <Filter>소스 파일\c++ introductory\BankProject</Filter>
     </ClCompile>
     <ClCompile Include="FirstOperationOverloading.cpp">
-      <Filter>소스 파일\OperatorOverloading</Filter>
+      <Filter>소스 파일\c++ introductory\OperatorOverloading</Filter>
     </ClCompile>
     <ClCompile Include="GFunctionOverloading.cpp">
-      <Filter>소스 파일\OperatorOverloading</Filter>
+      <Filter>소스 파일\c++ introductory\OperatorOverloading</Filter>
     </ClCompile>
     <ClCompile Include="OneOpndOverloading.cpp">
-      <Filter>소스 파일\OperatorOverloading</Filter>
+      <Filter>소스 파일\c++ introductory\OperatorOverloading</Filter>
     </ClCompile>
     <ClCompile Include="PostOpndOverloading.cpp">
-      <Filter>소스 파일\OperatorOverloading</Filter>
+      <Filter>소스 파일\c++ introductory\OperatorOverloading</Filter>
     </ClCompile>
     <ClCompile Include="PointMultipleOperation.cpp">
-      <Filter>소스 파일\OperatorOverloading</Filter>
+      <Filter>소스 파일\c++ introductory\OperatorOverloading</Filter>
     </ClCompile>
     <ClCompile Include="CommuMultipleOperation.cpp">
-      <Filter>소스 파일\OperatorOverloading</Filter>
+      <Filter>소스 파일\c++ introductory\OperatorOverloading</Filter>
     </ClCompile>
     <ClCompile Include="ConsoleOutput.cpp">
-      <Filter>소스 파일\cout, cin, endl</Filter>
+      <Filter>소스 파일\c++ introductory\cout, cin, endl</Filter>
     </ClCompile>
     <ClCompile Include="PointConsoleOutput.cpp">
-      <Filter>소스 파일\cout, cin, endl</Filter>
+      <Filter>소스 파일\c++ introductory\cout, cin, endl</Filter>
     </ClCompile>
     <ClCompile Include="Q10_3.cpp">
-      <Filter>소스 파일\cout, cin, endl</Filter>
+      <Filter>소스 파일\c++ introductory\cout, cin, endl</Filter>
     </ClCompile>
     <ClCompile Include="FirstOperationOverloading2.cpp">
-      <Filter>소스 파일\OperatorOverloading\OperatorOverloading2</Filter>
+      <Filter>소스 파일\c++ introductory\OperatorOverloading\OperatorOverloading2</Filter>
     </ClCompile>
     <ClCompile Include="AssignShallowCopyError.cpp">
-      <Filter>소스 파일\OperatorOverloading\OperatorOverloading2</Filter>
+      <Filter>소스 파일\c++ introductory\OperatorOverloading\OperatorOverloading2</Filter>
     </ClCompile>
     <ClCompile Include="InheritAssignOperation.cpp">
-      <Filter>소스 파일\OperatorOverloading\OperatorOverloading2</Filter>
+      <Filter>소스 파일\c++ introductory\OperatorOverloading\OperatorOverloading2</Filter>
     </ClCompile>
     <ClCompile Include="ImproveInit.cpp">
-      <Filter>소스 파일\OperatorOverloading\OperatorOverloading2</Filter>
+      <Filter>소스 파일\c++ introductory\OperatorOverloading\OperatorOverloading2</Filter>
     </ClCompile>
     <ClCompile Include="ARrayClass.cpp">
-      <Filter>소스 파일\OperatorOverloading\ArrayOperatorOverloading</Filter>
+      <Filter>소스 파일\c++ introductory\OperatorOverloading\ArrayOperatorOverloading</Filter>
     </ClCompile>
     <ClCompile Include="StablePointObjArray.cpp">
-      <Filter>소스 파일\OperatorOverloading\ArrayOperatorOverloading</Filter>
+      <Filter>소스 파일\c++ introductory\OperatorOverloading\ArrayOperatorOverloading</Filter>
     </ClCompile>
     <ClCompile Include="StablePointPtrArray.cpp">
-      <Filter>소스 파일\OperatorOverloading\ArrayOperatorOverloading</Filter>
+      <Filter>소스 파일\c++ introductory\OperatorOverloading\ArrayOperatorOverloading</Filter>
     </ClCompile>
     <ClCompile Include="AccountArray.cpp">
-      <Filter>소스 파일\BankProject</Filter>
+      <Filter>소스 파일\c++ introductory\BankProject</Filter>
     </ClCompile>
     <ClCompile Include="STDString.cpp">
-      <Filter>소스 파일\aboutString</Filter>
+      <Filter>소스 파일\c++ introductory\aboutString</Filter>
     </ClCompile>
     <ClCompile Include="소스.cpp">
-      <Filter>소스 파일\aboutString\StringClass</Filter>
+      <Filter>소스 파일\c++ introductory\aboutString\StringClass</Filter>
     </ClCompile>
     <ClCompile Include="String.cpp">
-      <Filter>소스 파일\BankProject</Filter>
+      <Filter>소스 파일\c++ introductory\BankProject</Filter>
     </ClCompile>
     <ClCompile Include="AddFunctionTemplate.cpp">
-      <Filter>소스 파일\aboutTemplate</Filter>
+      <Filter>소스 파일\c++ introductory\aboutTemplate</Filter>
     </ClCompile>
     <ClCompile Include="TwoTypeAddFunction.cpp">
-      <Filter>소스 파일\aboutTemplate</Filter>
+      <Filter>소스 파일\c++ introductory\aboutTemplate</Filter>
     </ClCompile>
     <ClCompile Include="PrimitiveFunctionTemplate.cpp">
-      <Filter>소스 파일\aboutTemplate</Filter>
-    </ClCompile>
-    <ClCompile Include="Q13_1.cpp">
-      <Filter>소스 파일\aboutTemplate</Filter>
-    </ClCompile>
-    <ClCompile Include="Q13_1_2.cpp">
-      <Filter>소스 파일\aboutTemplate</Filter>
+      <Filter>소스 파일\c++ introductory\aboutTemplate</Filter>
     </ClCompile>
     <ClCompile Include="NeedSpecialFunctionTemplate.cpp">
-      <Filter>소스 파일\aboutTemplate</Filter>
+      <Filter>소스 파일\c++ introductory\aboutTemplate</Filter>
     </ClCompile>
     <ClCompile Include="SpecialFunctionTemplate.cpp">
-      <Filter>소스 파일\aboutTemplate</Filter>
+      <Filter>소스 파일\c++ introductory\aboutTemplate</Filter>
     </ClCompile>
     <ClCompile Include="PointClassTemplate.cpp">
-      <Filter>소스 파일\aboutTemplate</Filter>
+      <Filter>소스 파일\c++ introductory\aboutTemplate</Filter>
     </ClCompile>
     <ClCompile Include="TemplatePoint.cpp">
-      <Filter>소스 파일\aboutTemplate\Arraytemplate</Filter>
-    </ClCompile>
-    <ClCompile Include="ArrayTemplate.h">
-      <Filter>소스 파일\aboutTemplate\Arraytemplate</Filter>
-    </ClCompile>
-    <ClCompile Include="BoundArrayMain.cpp">
-      <Filter>소스 파일\aboutTemplate\Arraytemplate</Filter>
+      <Filter>소스 파일\c++ introductory\aboutTemplate\Arraytemplate</Filter>
     </ClCompile>
     <ClCompile Include="HandlingExceptionUseIf.cpp">
-      <Filter>소스 파일\ExceptionHandling</Filter>
+      <Filter>소스 파일\c++ introductory\ExceptionHandling</Filter>
     </ClCompile>
     <ClCompile Include="PassException.cpp">
-      <Filter>소스 파일\ExceptionHandling</Filter>
+      <Filter>소스 파일\c++ introductory\ExceptionHandling</Filter>
     </ClCompile>
     <ClCompile Include="DiffHandlingPosition.cpp">
-      <Filter>소스 파일\ExceptionHandling</Filter>
+      <Filter>소스 파일\c++ introductory\ExceptionHandling</Filter>
+    </ClCompile>
+    <ClCompile Include="Q13_1.cpp">
+      <Filter>소스 파일\c++ introductory\aboutTemplate</Filter>
+    </ClCompile>
+    <ClCompile Include="13_1_2.cpp">
+      <Filter>소스 파일\c++ introductory\aboutTemplate</Filter>
+    </ClCompile>
+    <ClCompile Include="PointMain.cpp">
+      <Filter>소스 파일\c++ introductory\aboutTemplate\PointTemplateFile</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayTemplate.h">
+      <Filter>소스 파일\c++ introductory\aboutTemplate\PointTemplateFile</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundArrayMain.cpp">
+      <Filter>소스 파일\c++ introductory\aboutTemplate\PointTemplateFile</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassTemplateSpecialization.cpp">
+      <Filter>소스 파일\c++ introductory\aboutTemplate</Filter>
+    </ClCompile>
+    <ClCompile Include="1-3.cpp">
+      <Filter>소스 파일\Brain STL\OperatorOverload</Filter>
+    </ClCompile>
+    <ClCompile Include="2-2.cpp">
+      <Filter>소스 파일\Brain STL\FunctionPointer</Filter>
+    </ClCompile>
+    <ClCompile Include="2-5.cpp">
+      <Filter>소스 파일\Brain STL\FunctionPointer</Filter>
+    </ClCompile>
+    <ClCompile Include="2-7.cpp">
+      <Filter>소스 파일\Brain STL\ServerCodeClientCode</Filter>
+    </ClCompile>
+    <ClCompile Include="2-8.cpp">
+      <Filter>소스 파일\Brain STL\ServerCodeClientCode</Filter>
+    </ClCompile>
+    <ClCompile Include="3-1.cpp">
+      <Filter>소스 파일\Brain STL\FunctionObject</Filter>
+    </ClCompile>
+    <ClCompile Include="3-3.cpp">
+      <Filter>소스 파일\Brain STL\FunctionObject</Filter>
+    </ClCompile>
+    <ClCompile Include="3-4.cpp">
+      <Filter>소스 파일\Brain STL\FunctionObject</Filter>
+    </ClCompile>
+    <ClCompile Include="3-5.cpp">
+      <Filter>소스 파일\Brain STL\FunctionObject</Filter>
+    </ClCompile>
+    <ClCompile Include="3-6.cpp">
+      <Filter>소스 파일\Brain STL\FunctionObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Q2.cpp">
+      <Filter>소스 파일\Brain STL\FunctionObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Q3.cpp">
+      <Filter>소스 파일\Brain STL\FunctionObject</Filter>
+    </ClCompile>
+    <ClCompile Include="1-14.cpp">
+      <Filter>소스 파일\Brain STL\OperatorOverload</Filter>
+    </ClCompile>
+    <ClCompile Include="1-15.cpp">
+      <Filter>소스 파일\Brain STL\OperatorOverload</Filter>
+    </ClCompile>
+    <ClCompile Include="1-16.cpp">
+      <Filter>소스 파일\Brain STL\OperatorOverload</Filter>
+    </ClCompile>
+    <ClCompile Include="1-17.cpp">
+      <Filter>소스 파일\Brain STL\OperatorOverload</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -360,31 +435,34 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="Account.h">
-      <Filter>소스 파일\BankProject</Filter>
+      <Filter>소스 파일\c++ introductory\BankProject</Filter>
     </ClInclude>
     <ClInclude Include="HighCreditAccount.h">
-      <Filter>소스 파일\BankProject</Filter>
+      <Filter>소스 파일\c++ introductory\BankProject</Filter>
     </ClInclude>
     <ClInclude Include="AccountHandler.h">
-      <Filter>소스 파일\BankProject</Filter>
+      <Filter>소스 파일\c++ introductory\BankProject</Filter>
     </ClInclude>
     <ClInclude Include="NormalAccount.h">
-      <Filter>소스 파일\BankProject</Filter>
+      <Filter>소스 파일\c++ introductory\BankProject</Filter>
     </ClInclude>
     <ClInclude Include="BankingCommonDec1.h">
-      <Filter>소스 파일\BankProject</Filter>
+      <Filter>소스 파일\c++ introductory\BankProject</Filter>
     </ClInclude>
     <ClInclude Include="AccountArray.h">
-      <Filter>소스 파일\BankProject</Filter>
+      <Filter>소스 파일\c++ introductory\BankProject</Filter>
     </ClInclude>
     <ClInclude Include="Stringclass.cpp">
-      <Filter>소스 파일\aboutString\StringClass</Filter>
+      <Filter>소스 파일\c++ introductory\aboutString\StringClass</Filter>
     </ClInclude>
     <ClInclude Include="String.h">
-      <Filter>소스 파일\BankProject</Filter>
+      <Filter>소스 파일\c++ introductory\BankProject</Filter>
     </ClInclude>
     <ClInclude Include="TemplatePoint.h">
-      <Filter>소스 파일\aboutTemplate\Arraytemplate</Filter>
+      <Filter>소스 파일\c++ introductory\aboutTemplate\Arraytemplate</Filter>
+    </ClInclude>
+    <ClInclude Include="PointTemplate.h">
+      <Filter>소스 파일\c++ introductory\aboutTemplate\PointTemplateFile</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

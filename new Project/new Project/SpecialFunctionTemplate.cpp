@@ -9,16 +9,12 @@ T Max(T a, T b)
 }
 
 template<>
-char* Max(char * a, char * b)
-{
-	cout << "char * Max<char*>(char* a, char* b)" << endl;
+char* Max(char* a, char* b) {
 	return strlen(a) > strlen(b) ? a : b;
 }
 
 template<>
-const char* Max(const char * a, const char * b)
-{
-	cout << "const Max" << endl;
+const char* Max(const char * a, const char * b) {
 	return strcmp(a, b) > 0 ? a : b;
 }
 
