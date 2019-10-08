@@ -417,6 +417,21 @@
     <ClCompile Include="1-17.cpp">
       <Filter>소스 파일\Brain STL\OperatorOverload</Filter>
     </ClCompile>
+    <ClCompile Include="DynamicCasting.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1-20.cpp">
+      <Filter>소스 파일\Brain STL\OperatorOverload</Filter>
+    </ClCompile>
+    <ClCompile Include="1-23.cpp">
+      <Filter>소스 파일\Brain STL\OperatorOverload</Filter>
+    </ClCompile>
+    <ClCompile Include="1-26.cpp">
+      <Filter>소스 파일\Brain STL\OperatorOverload</Filter>
+    </ClCompile>
+    <ClCompile Include="Q1-1,2,3,4,5.cpp">
+      <Filter>소스 파일\Brain STL\OperatorOverload</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Car.h">
