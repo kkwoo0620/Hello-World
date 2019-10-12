@@ -97,6 +97,15 @@
     <Filter Include="소스 파일\Brain STL\FunctionObject">
       <UniqueIdentifier>{3efcc5ca-709a-43f8-a4e3-8b98a32946d5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Brain STL\FunctionTemplate">
+      <UniqueIdentifier>{c7d18c49-211a-4f60-a550-936e75d81409}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Brain STL\Vector">
+      <UniqueIdentifier>{5c5f302f-3310-42cc-9ed0-ef43028af295}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Brain STL\Deque">
+      <UniqueIdentifier>{d81809ea-7ceb-4276-bd9c-b53ea5b65740}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="02-3.cpp">
@@ -431,6 +440,48 @@
     </ClCompile>
     <ClCompile Include="Q1-1,2,3,4,5.cpp">
       <Filter>소스 파일\Brain STL\OperatorOverload</Filter>
+    </ClCompile>
+    <ClCompile Include="4-3.cpp">
+      <Filter>소스 파일\Brain STL\FunctionTemplate</Filter>
+    </ClCompile>
+    <ClCompile Include="4-10.cpp">
+      <Filter>소스 파일\Brain STL\FunctionTemplate</Filter>
+    </ClCompile>
+    <ClCompile Include="4-14.cpp">
+      <Filter>소스 파일\Brain STL\FunctionTemplate</Filter>
+    </ClCompile>
+    <ClCompile Include="4-16.cpp">
+      <Filter>소스 파일\Brain STL\FunctionTemplate</Filter>
+    </ClCompile>
+    <ClCompile Include="4-21.cpp">
+      <Filter>소스 파일\Brain STL\FunctionTemplate</Filter>
+    </ClCompile>
+    <ClCompile Include="4-22.cpp">
+      <Filter>소스 파일\Brain STL\FunctionTemplate</Filter>
+    </ClCompile>
+    <ClCompile Include="4-23.cpp">
+      <Filter>소스 파일\Brain STL\FunctionTemplate</Filter>
+    </ClCompile>
+    <ClCompile Include="4_Q1.cpp">
+      <Filter>소스 파일\Brain STL\FunctionTemplate</Filter>
+    </ClCompile>
+    <ClCompile Include="4_Q2.cpp">
+      <Filter>소스 파일\Brain STL\FunctionTemplate</Filter>
+    </ClCompile>
+    <ClCompile Include="4_Q3.cpp">
+      <Filter>소스 파일\Brain STL\FunctionTemplate</Filter>
+    </ClCompile>
+    <ClCompile Include="6-1.cpp">
+      <Filter>소스 파일\Brain STL\Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="6-17.cpp">
+      <Filter>소스 파일\Brain STL\Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="6-24.cpp">
+      <Filter>소스 파일\Brain STL\Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="6-27.cpp">
+      <Filter>소스 파일\Brain STL\Deque</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
