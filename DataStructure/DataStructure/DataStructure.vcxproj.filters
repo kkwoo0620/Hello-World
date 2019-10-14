@@ -40,6 +40,27 @@
     <Filter Include="소스 파일\Stack\Calculator">
       <UniqueIdentifier>{4177859f-004b-4117-a6e8-928508189bc8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Queue">
+      <UniqueIdentifier>{fffa5309-a111-4eaf-b613-a52d354362de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Queue\ListBaseQueue">
+      <UniqueIdentifier>{75b5292c-679f-4916-8932-93fa77ff0a44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Queue\ArrayBaseQueue">
+      <UniqueIdentifier>{dc57e3f0-c026-468e-8b3b-37ad36615079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Tree">
+      <UniqueIdentifier>{659a9a26-68f3-4b7c-b7cb-48c2b6aa3aec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Tree\operateTree">
+      <UniqueIdentifier>{f360ec3c-1851-437d-9059-985a58ab0e4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\HeapQueue">
+      <UniqueIdentifier>{9be6d51c-92be-45a8-a725-f66d7d6c4b67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Sort">
+      <UniqueIdentifier>{776d50d3-8e98-47f1-acc5-8d48299955c4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LinearSearch.cpp">
@@ -105,6 +126,48 @@
     <ClCompile Include="InfixCalculator.cpp">
       <Filter>소스 파일\Stack\Calculator</Filter>
     </ClCompile>
+    <ClCompile Include="ListBaseQueue.cpp">
+      <Filter>소스 파일\Queue\ListBaseQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="ListBaseQueueMain.cpp">
+      <Filter>소스 파일\Queue\ListBaseQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="CircularQueueMain.cpp">
+      <Filter>소스 파일\Queue\ArrayBaseQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="CircularQueue.cpp">
+      <Filter>소스 파일\Queue\ArrayBaseQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="HamburgerSim.cpp">
+      <Filter>소스 파일\Queue</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryTree.cpp">
+      <Filter>소스 파일\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryTreeMain.cpp">
+      <Filter>소스 파일\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Simepleheap.cpp">
+      <Filter>소스 파일\HeapQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort.cpp">
+      <Filter>소스 파일\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\Desktop\Data_Structure_Src\Ch09\UsefulHeap\UsefulHeapMain.cpp">
+      <Filter>소스 파일\HeapQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="HeapSort.cpp">
+      <Filter>소스 파일\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="UsefulHeap.cpp">
+      <Filter>소스 파일\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="MergeSort.cpp">
+      <Filter>소스 파일\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="QuickSort.cpp">
+      <Filter>소스 파일\Sort</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="NameCard.h">
@@ -136,6 +199,24 @@
     </ClInclude>
     <ClInclude Include="InfixCalculator.h">
       <Filter>소스 파일\Stack\Calculator</Filter>
+    </ClInclude>
+    <ClInclude Include="ListBaseQueue.h">
+      <Filter>소스 파일\Queue\ListBaseQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="CircularQueue.h">
+      <Filter>소스 파일\Queue\ArrayBaseQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryTree.h">
+      <Filter>소스 파일\Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpressionTree.h">
+      <Filter>소스 파일\Tree\operateTree</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleHeap.h">
+      <Filter>소스 파일\HeapQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="UsefulHeap.h">
+      <Filter>소스 파일\Sort</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -106,6 +106,15 @@
     <Filter Include="소스 파일\Brain STL\Deque">
       <UniqueIdentifier>{d81809ea-7ceb-4276-bd9c-b53ea5b65740}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Brain STL\List">
+      <UniqueIdentifier>{713a61cb-6f38-45d0-8724-d1c9279fd7cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Brain STL\Set MultiSet">
+      <UniqueIdentifier>{3962a7fd-8876-4c58-958d-95b42685df4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Brain STL\Map">
+      <UniqueIdentifier>{616a4ecc-f19a-4842-92f0-115e9da64c1e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="02-3.cpp">
@@ -482,6 +491,39 @@
     </ClCompile>
     <ClCompile Include="6-27.cpp">
       <Filter>소스 파일\Brain STL\Deque</Filter>
+    </ClCompile>
+    <ClCompile Include="6-32.cpp">
+      <Filter>소스 파일\Brain STL\List</Filter>
+    </ClCompile>
+    <ClCompile Include="6-33.cpp">
+      <Filter>소스 파일\Brain STL\List</Filter>
+    </ClCompile>
+    <ClCompile Include="6-34.cpp">
+      <Filter>소스 파일\Brain STL\List</Filter>
+    </ClCompile>
+    <ClCompile Include="6-35.cpp">
+      <Filter>소스 파일\Brain STL\List</Filter>
+    </ClCompile>
+    <ClCompile Include="7-1.cpp">
+      <Filter>소스 파일\Brain STL\Set MultiSet</Filter>
+    </ClCompile>
+    <ClCompile Include="7-5.cpp">
+      <Filter>소스 파일\Brain STL\Set MultiSet</Filter>
+    </ClCompile>
+    <ClCompile Include="7-11.cpp">
+      <Filter>소스 파일\Brain STL\Set MultiSet</Filter>
+    </ClCompile>
+    <ClCompile Include="7-12.cpp">
+      <Filter>소스 파일\Brain STL\Set MultiSet</Filter>
+    </ClCompile>
+    <ClCompile Include="7-14.cpp">
+      <Filter>소스 파일\Brain STL\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="7-16.cpp">
+      <Filter>소스 파일\Brain STL\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="7-20.cpp">
+      <Filter>소스 파일\Brain STL\Map</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
