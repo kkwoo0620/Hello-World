@@ -115,6 +115,9 @@
     <Filter Include="소스 파일\Brain STL\Map">
       <UniqueIdentifier>{616a4ecc-f19a-4842-92f0-115e9da64c1e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Brain STL\Algorithms">
+      <UniqueIdentifier>{039ae730-5009-4a44-8433-0fff77900735}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="02-3.cpp">
@@ -524,6 +527,33 @@
     </ClCompile>
     <ClCompile Include="7-20.cpp">
       <Filter>소스 파일\Brain STL\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="8-1.cpp">
+      <Filter>소스 파일\Brain STL\Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="8-8.cpp">
+      <Filter>소스 파일\Brain STL\Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="8-13.cpp">
+      <Filter>소스 파일\Brain STL\Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="8-17.cpp">
+      <Filter>소스 파일\Brain STL\Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="8-25.cpp">
+      <Filter>소스 파일\Brain STL\Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="8-41.cpp">
+      <Filter>소스 파일\Brain STL\Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="8-47.cpp">
+      <Filter>소스 파일\Brain STL\Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="8-51.cpp">
+      <Filter>소스 파일\Brain STL\Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>소스 파일\Brain STL\Algorithms</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

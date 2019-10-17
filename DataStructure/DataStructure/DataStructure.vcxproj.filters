@@ -61,6 +61,12 @@
     <Filter Include="소스 파일\Sort">
       <UniqueIdentifier>{776d50d3-8e98-47f1-acc5-8d48299955c4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Search">
+      <UniqueIdentifier>{d8615a1a-2d7b-4ca9-8bfb-46fe6e399a23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Table">
+      <UniqueIdentifier>{11c9d817-67e1-4c5c-abbf-c6b5f50e37ce}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LinearSearch.cpp">
@@ -168,6 +174,12 @@
     <ClCompile Include="QuickSort.cpp">
       <Filter>소스 파일\Sort</Filter>
     </ClCompile>
+    <ClCompile Include="RecursiveBinarySearch.cpp">
+      <Filter>소스 파일\Search</Filter>
+    </ClCompile>
+    <ClCompile Include="UnderstandTable.cpp">
+      <Filter>소스 파일\Table</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="NameCard.h">
@@ -217,6 +229,9 @@
     </ClInclude>
     <ClInclude Include="UsefulHeap.h">
       <Filter>소스 파일\Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="BinarySearchTree.h">
+      <Filter>소스 파일\Tree</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
